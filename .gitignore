@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.local
+.cockroach-data/
+.bin/
+*.log
+# Local database files
+.cockroach-data/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
